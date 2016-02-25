@@ -1,0 +1,22 @@
+{
+  "name": "appxn",
+  "version": "1.0.0",
+  "description": "AppXN",
+  "main": "app/app.js",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "mocha -R spec 'tests/'"
+  },
+  "author": "uncle.funkay@gmail.com",
+  "license": "ISC",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  }
+}
